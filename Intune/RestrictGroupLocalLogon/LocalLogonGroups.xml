@@ -1,0 +1,7 @@
+<GroupConfiguration>
+    <accessgroup desc = "S-1-5-32-546">
+        <group action = "U" />
+        <add member = "S-1-12-1-XXXXXXXXX-XXXXXXXXX-XXXXXXXXXX"/>
+    </accessgroup>
+</GroupConfiguration>
+
