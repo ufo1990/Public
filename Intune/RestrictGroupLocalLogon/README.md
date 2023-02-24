@@ -47,6 +47,17 @@ If you want restrict local login devices only specific groups, this tutorial is 
 
 ![Screeasdsadsssdadnshot](https://user-images.githubusercontent.com/85555971/220937889-4061d2f5-614e-4100-ab3a-e74dd803b741.png)
 
+ XML needs attribute ```add member``` who is ```Group SID```. This can get via <a href="https://developer.microsoft.com/en-us/graph/graph-explorer">Microsoft Graph</a>.
+ 
+The first you have to get Object ID of the group, which holds your users you want to deny local log on. Object ID put in <b>https://graph.microsoft.com/v1.0/groups/ObjectID</b>.
+
+![objectID](https://user-images.githubusercontent.com/85555971/221129258-bd4be299-351d-48f0-b6e9-8e23906173a8.jpg)
+
+![graph](https://user-images.githubusercontent.com/85555971/221127350-67542471-d8b0-4ec7-a1c7-f7987f23849a.jpg)
+
 - Add groups where is that device and finally click <b>Create</b><br/>
 
 ![Screenshot13](https://user-images.githubusercontent.com/85555971/220907535-9f521307-f2ca-4f57-9cb1-f81ad02bfde6.jpg)
+
+![guest](https://user-images.githubusercontent.com/85555971/221142626-eb9d77dc-e3f6-444b-a1e6-379e23017e6e.jpg)
+
